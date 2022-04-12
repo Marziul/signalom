@@ -1,0 +1,386 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-header .navbar-toggle {
+        border: 1px solid #ddd;
+    }
+    .nav-menu {   position: relative; }
+    .navbar-header .navbar-toggle.click-effect {
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #000;
+        width: 30px;        
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 4px;
+        height: 4px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #000;
+        height: 4px;
+        position: relative;
+        top: -4px;        
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #ffbe0a;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }
+    
+    .navbar-default {
+        background-color: transparent;
+        border-color: transparent;
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: 0;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0,0,0, .95);
+        left: inherit;
+        z-index: 9999;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;    
+        border-bottom: 3px solid #222624;
+        top: 100%;
+        position: absolute;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    ul.navbar-nav li a{
+        margin: 10px 15px !important;
+        font-size: 16px !important;
+    }  
+    ul.navbar-nav > li > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 20px;
+    }
+    
+    ul.navbar-nav li:last-child,
+    ul.navbar-nav li, .nav-menu ul li ul.sub-menu li:last-child,
+    ul.navbar-nav li ul.sub-menu li{
+        border: 0px none;
+    }    
+    ul.navbar-nav li{
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav li ul.sub-menu li:hover{
+        background: transparent;
+    }
+    ul.navbar-nav li ul.sub-menu li a{
+        padding:3px 0px 3px 15px;
+    } 
+    ul.navbar-nav li a:hover,
+    ul.navbar-nav li.current_page_item a{
+        background: transparent;
+    }
+    
+    ul.navbar-nav > li > ul.sub-menu li.menu-item-has-children:before{
+        display: none;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding-left: 20px;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu{
+        left: auto;
+    }
+    
+    li.login_menu_btn {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    
+    .header_content h1 {
+        font-size: 24px;
+        margin-top: 100px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .navbar-brand > img {
+        margin-left: 0;
+        max-width: 130px;
+    }
+    
+    .navbar-brand {
+        padding: 0px 15px;
+    }
+    
+    .sign_Up_btn button {
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .navbar-collapse.collapse{
+        margin: 0;
+    }
+    
+    
+    
+.custom-logo {
+    max-width: 150px;
+}
+.custom-logo-link {
+    margin: 10px 5px !important;
+    padding: 0 !important;
+}
+.navbar-brand {
+    height: 0 !important;
+}
+button.navbar-toggle {
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.navbar-header .navbar-toggle {
+    border: 0 none;
+}
+.navbar-toggle .icon-bar {
+    border-radius: 4px;
+    height: 7px;
+    width: 40px !important;
+}
+.signalom_top h1 {
+    font-size: 32px;
+}
+p.signalom-desc {
+    font-size: 25px;
+}
+.signalom_top {
+    padding-top: 30px;
+}
+.signalom_content {
+    width: 46%;
+}
+.signalom_content h2 {
+    font-size: 13.5px;
+    margin-bottom: -5px;
+}
+.signalom_content ul li {
+    font-size: 15px;
+    max-width: 138px !important;
+    min-width: 138px !important;
+    padding: 3px 2px;
+}
+.signalom_content > ul {
+    margin-top: 10px;
+}
+.signalom_content > span {
+    line-height: normal;
+    white-space: pre-line;
+}
+.signalom_content {
+    margin-bottom: 20px;
+}
+.signalom_product {
+    margin-top: 20px;
+}
+.nsf-section {
+    margin-top: 0px;
+    padding-top: 25px;
+}
+.contact-section .title {
+    padding-bottom: 20px;
+}
+h1.title {
+    font-size: 30px;
+}
+.contact-section {
+    padding-top: 35px;
+}
+.contact-left {
+    margin: 0 0 20px;
+    padding: 15px 12px;
+}
+.contact-item {
+    padding-bottom: 18px;
+}
+.contact-item img {
+    width: 38px;
+}
+.contact-left .contact-text p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.form-control {
+    max-width: a;
+    min-width: auto;
+    width: 100%;
+}
+.textwidget.custom-html-widget img {
+    width: 112px;
+}
+.footer-left li a {
+    margin-right: 8px;
+}
+.textwidget.custom-html-widget > ul {
+    overflow: hidden;
+}
+.footer-middle li {
+    font-size: 14px;
+}
+.footer-middle {
+    margin: 15px 0;
+}
+.footer-right img {
+    margin-right: 10px;
+    width: 39px !important;
+}
+#menu-footer-menu li a {
+    font-size: 12px;
+}
+#menu-footer-menu li {
+    float: left;
+    padding: 0 10px;
+}
+#menu-footer-menu.menu {
+    overflow: hidden;
+}
+.about-text {
+    margin: 0;
+}
+.about-text > p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+.sign-text {
+    padding: 0;
+}
+.about-section {
+    padding: 20px 0 0;
+}
+.about-section .title {
+    margin-bottom: 15px;
+}
+.faq-item {
+    padding: 0;
+}
+.faq-section .arconix-faq-title.faq-open,
+.faq-section .arconix-faq-title {
+    background-position: 10px center;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 8px;
+    padding-left: 47px;
+    padding-top: 8px;
+}
+footer.footer-area {
+    padding: 10px 0;
+}
+.mc4wp-form-fields li:first-child input {
+    min-width: auto;
+    width: 100%;
+}
+.news-form, .wpcf7-form-control.wpcf7-submit {
+    float: none;
+    margin-top: 10px;
+}
+.mc4wp-form-fields > ul {
+    overflow: hidden;
+    text-align: center;
+}
+.widget_text.nsf-right.text-right {
+    margin-top: 12px;
+    text-align: center;
+}
+.mc4wp-form.mc4wp-form-129 {
+    text-align: center;
+}
+.mc4wp-form-fields li {
+    float: none;
+}
+
+.nsf-left img {
+  float: left;
+  padding: 0 15px 10px 0;
+}
+
+.benefit-section .title {
+  color: #262626;
+  margin-bottom: 30px;
+}
+.benefit-section {
+  padding: 25px 0 30px;
+}
+.plus-top .col-sm-4:nth-child(2) {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.faq-section .arconix-faq-content {
+  margin-left: 0;
+  padding: 10px 20px;
+} 
+    
+    
+    
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+}
